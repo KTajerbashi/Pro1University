@@ -1,0 +1,17 @@
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\bin\Debug\P1 University.exe.config
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\bin\Debug\P1 University.exe
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\bin\Debug\P1 University.pdb
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\bin\Debug\EntityFramework.dll
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\bin\Debug\EntityFramework.xml
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1 University.csproj.AssemblyReference.cache
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1 University.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1_University.MainForm1.resources
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1_University.Properties.Resources.resources
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1_University.RegisterForm.resources
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1 University.csproj.GenerateResource.cache
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1 University.csproj.CoreCompileInputs.cache
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1 University.csproj.CopyComplete
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1 University.exe
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1 University.pdb

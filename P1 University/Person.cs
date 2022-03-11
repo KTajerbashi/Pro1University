@@ -12,8 +12,8 @@ namespace P1_University
         public String name { get; set; }
         public String fatherName { get; set; }
         public String family { get; set; }
-        public String age { get; set; }
-        public String nationalID { get; set; }
+        public byte age { get; set; }
+        public int nationalID { get; set; }
         public String phone { get; set; }
         public String field { get; set; }
     }

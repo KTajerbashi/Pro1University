@@ -126,6 +126,7 @@
             this.cancelbtn.Text = "خروج";
             this.cancelbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.cancelbtn.UseVisualStyleBackColor = false;
+            this.cancelbtn.Click += new System.EventHandler(this.cancelbtn_Click);
             // 
             // save2btn
             // 
@@ -139,6 +140,7 @@
             this.save2btn.Text = "ثبت نهایی";
             this.save2btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.save2btn.UseVisualStyleBackColor = false;
+            this.save2btn.Click += new System.EventHandler(this.save2btn_Click);
             // 
             // save1btn
             // 
