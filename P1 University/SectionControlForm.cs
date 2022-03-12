@@ -19,8 +19,8 @@ namespace P1_University
 
         private void SectionControlForm_Load(object sender, EventArgs e)
         {
-            dataGridViewStudent.DataSource = (new DB_C1().lessons).ToList();
-            dataGridViewTeacher.DataSource = (new DB_C1().teachers).ToList();
+            dataGridView1.DataSource = (new DB_C1().teachers).ToList();
+            dataGridView2.DataSource = (new DB_C1().lessons).ToList();
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)
@@ -28,10 +28,19 @@ namespace P1_University
             this.Close();
         }
 
-        private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            DB_C1 db = new DB_C1();
+            teacodTXT.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            teaCTXT.Text = teacodTXT.Text;
+            teanameTXT.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            teafamTXT.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            teaFieTXT.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+        }
+
+        private void dataGridView2_CellClick_1(object sender, DataGridViewCellEventArgs e)
+        {
             
+
         }
     }
 }
