@@ -19,8 +19,8 @@ namespace P1_University
 
         private void SectionControlForm_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = (new DB_C1().teachers).ToList();
-            dataGridView2.DataSource = (new DB_C1().lessons).ToList();
+            dataGridViewStudent.DataSource = (new DB_C1().lessons).ToList();
+            dataGridViewTeacher.DataSource = (new DB_C1().teachers).ToList();
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)
