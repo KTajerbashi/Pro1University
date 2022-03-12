@@ -39,8 +39,39 @@ namespace P1_University
 
         private void dataGridView2_CellClick_1(object sender, DataGridViewCellEventArgs e)
         {
-            
+            lescod.Text = dataGridView2.CurrentRow.Cells[0].Value.ToString();
+            lesCodeTXT.Text = lescod.Text;
+            lesNameTXT.Text = dataGridView2.CurrentRow.Cells[1].Value.ToString();
+            nameLes.Text = lesNameTXT.Text;
+            lesFieldTXT.Text = dataGridView2.CurrentRow.Cells[2].Value.ToString();
+            fieldless.Text = lesFieldTXT.Text;
+            lesGroTXT.Text = dataGridView2.CurrentRow.Cells[3].Value.ToString();
+            unitTXT.Text = dataGridView2.CurrentRow.Cells[4].Value.ToString();
+        }
 
+        private void saveBTN_Click(object sender, EventArgs e)
+        {
+            Section section = new Section();
+            if(section.mergeLesTea(new Section
+            {
+                LessonId = Convert.ToInt32(lesCodeTXT.Text),
+                teacherId = Convert.ToInt32(teacodTXT.Text),
+                day = Convert.ToInt32(dayTXT.Text),
+                lessonHR = Convert.ToDateTime(hourTXT.Text),
+                classNum = Convert.ToInt32(ClassNumTXT.Text)
+            }, lesFieldTXT.Text, teaFieTXT.Text))
+            {
+                this.Text = "عملیات با موفق ثبت شد";
+            }
+            else
+            {
+                this.Text = "این انتخاب اشتباه است";
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
