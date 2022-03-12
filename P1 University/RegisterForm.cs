@@ -12,76 +12,97 @@ namespace P1_University
 {
     public partial class RegisterForm : Form
     {
+        
         public RegisterForm()
         {
             InitializeComponent();
         }
-        #region function
-        bool select(Student student)
-        {
-            DB_C1 dbc1 = new DB_C1();
-            foreach (var item in dbc1.students)
-            {
-                if (item.name == student.name && item.family == student.family && item.fatherName == student.fatherName)
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
-        bool register(Student student)
-        {
-            DB_C1 dbc1 = new DB_C1();
-            if (!select(student))
-            {
-                dbc1.students.Add(new Student
-                {
-                    studentCode = student.studentCode,
-                    name = student.name,
-                    fatherName = student.fatherName,
-                    family = student.family,
-                    nationalID = student.nationalID,
-                    phone = student.phone,
-                    age = student.age,
-                    address = student.address,
-                    field = student.field
-                });
-                dbc1.SaveChanges();
-                this.Text = "ثبت نام شد";
-                return true;
-
-            }
-
-            return false;
-        }
-        #endregion
+        
         private void save2btn_Click(object sender, EventArgs e)
         {
-            if(register(new Student
+
+            if (MainCodeTXT.Text == "121212")
             {
-                name = nametxt.Text,
-                family = familytxt.Text,
-                fatherName = fathertxt.Text,
-                phone = phonetxt.Text,
-                address = addresstxt.Text,
-                nationalID = Convert.ToInt32(nationaltxt.Text),
-                field = fieldtxt.Text,
-                age = Convert.ToByte(agetxt.Text),
-                studentCode = 983310
-            }))
-            {
-                MessageBox.Show("ثبت نام شدید");
+                Teacher teacher= new Teacher();
+                if (teacher.register(new Teacher
+                {
+                    name = nametxt.Text,
+                    family = familytxt.Text,
+                    fatherName = fathertxt.Text,
+                    phone = phonetxt.Text,
+                    address = addresstxt.Text,
+                    nationalID = Convert.ToInt32(nationaltxt.Text),
+                    field = fieldtxt.Text,
+                    age = Convert.ToByte(agetxt.Text),
+                    degree=degreeTXT.Text
+
+                }))
+                {
+                    MessageBox.Show("استاد ثبت نام شد");
+                    this.Text = "ثبت نام شدید";
+                }
+                else
+                {
+                    this.Text = "اطلاعات اضافه نشد";
+                    MessageBox.Show("ثبت نام ناموفق");
+                }
             }
-            else
+            else if (MainCodeTXT.Text == "111111")
             {
-                MessageBox.Show("ثبت نام ناموفق");
+                Student student = new Student();
+                if (student.register(new Student
+                {
+                    name = nametxt.Text,
+                    family = familytxt.Text,
+                    fatherName = fathertxt.Text,
+                    phone = phonetxt.Text,
+                    address = addresstxt.Text,
+                    nationalID = Convert.ToInt32(nationaltxt.Text),
+                    field = fieldtxt.Text,
+                    age = Convert.ToByte(agetxt.Text),
+                    studentCode = 983310
+                }))
+                {
+                    MessageBox.Show("دانشجو ثبت نام شد");
+                    this.Text="ثبت نام شدید";
+                }
+                else
+                {
+                    this.Text = "اطلاعات اضافه نشد";
+
+                    MessageBox.Show("ثبت نام ناموفق");
+                }
             }
+            
         }
 
         private void cancelbtn_Click(object sender, EventArgs e)
         {
             this.Text = "خروج";
             this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Text = "ثبت اطلاعات هویت";
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Text = "ثبت اطلاعات تکمیلی";
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Text = "ثبت اطلاعات رشته تحصیلی";
+
+        }
+
+        private void save1btn_Click(object sender, EventArgs e)
+        {
+            this.Text = "کد تایید شد";
+            
         }
     }
 }

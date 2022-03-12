@@ -16,5 +16,7 @@ namespace P1_University
         public int nationalID { get; set; }
         public String phone { get; set; }
         public String field { get; set; }
+        public String address { get; set; }
+
     }
 }

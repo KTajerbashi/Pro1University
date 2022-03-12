@@ -59,6 +59,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddLessonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLessonForm.Designer.cs">
+      <DependentUpon>AddLessonForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DB_C1.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -67,6 +73,15 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Lesson.cs" />
+    <Compile Include="Migrations\202203110847300_InitialCreate.cs" />
+    <Compile Include="Migrations\202203110847300_InitialCreate.designer.cs">
+      <DependentUpon>202203110847300_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203120208204_Address.cs" />
+    <Compile Include="Migrations\202203120208204_Address.designer.cs">
+      <DependentUpon>202203120208204_Address.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,11 +92,26 @@
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Section.cs" />
+    <Compile Include="SectionControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SectionControlForm.Designer.cs">
+      <DependentUpon>SectionControlForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SelectionUnit.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Teacher.cs" />
+    <EmbeddedResource Include="AddLessonForm.resx">
+      <DependentUpon>AddLessonForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203110847300_InitialCreate.resx">
+      <DependentUpon>202203110847300_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203120208204_Address.resx">
+      <DependentUpon>202203120208204_Address.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,6 +125,9 @@
     </Compile>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SectionControlForm.resx">
+      <DependentUpon>SectionControlForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -184,6 +217,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Aha-Soft-Standard-City-University.ico" />
+    <None Include="Resources\Action-viewmag-icon %281%291.png" />
+    <None Include="Resources\folder-ok-icon.png" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-10-Teachers.ico" />
+    <None Include="Resources\Teachers-icon.png" />
+    <None Include="Resources\Marcus-Roberto-Google-Play-Google-Play-Books.ico" />
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-contact-new.ico" />
+    <None Include="Resources\Actions-contact-new-icon.png" />
+    <None Include="Resources\Everaldo-Crystal-Clear-Action-cancel %282%29.ico" />
+    <None Include="Resources\Action-cancel-icon %282%29.png" />
+    <None Include="Resources\Sign-Close-icon2.png" />
+    <None Include="Resources\Everaldo-Crystal-Clear-Action-ok %281%29.ico" />
+    <None Include="Resources\App-Quick-restart-icon %282%29.png" />
+    <None Include="Resources\category-item-icon.png" />
     <None Include="Resources\Everaldo-Crystal-Clear-Action-delete %281%29.ico" />
     <None Include="Resources\Sign-Close-icon1.png" />
     <None Include="Resources\Sign-Close-icon.png" />

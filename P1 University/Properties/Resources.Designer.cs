@@ -63,6 +63,16 @@ namespace P1_University.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Action_cancel_icon__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Action-cancel-icon (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Action_db_add_icon__1_ {
             get {
                 object obj = ResourceManager.GetObject("Action-db-add-icon (1)", resourceCulture);
@@ -183,6 +193,26 @@ namespace P1_University.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Action_viewmag_icon__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("Action-viewmag-icon (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Actions_contact_new_icon {
+            get {
+                object obj = ResourceManager.GetObject("Actions-contact-new-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Aha_Soft_Standard_City_City {
             get {
                 object obj = ResourceManager.GetObject("Aha-Soft-Standard-City-City", resourceCulture);
@@ -236,6 +266,16 @@ namespace P1_University.Properties {
         internal static System.Drawing.Bitmap App_Quick_restart_icon {
             get {
                 object obj = ResourceManager.GetObject("App-Quick-restart-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap App_Quick_restart_icon__2_ {
+            get {
+                object obj = ResourceManager.GetObject("App-Quick-restart-icon (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,6 +343,26 @@ namespace P1_University.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap category_item_icon {
+            get {
+                object obj = ResourceManager.GetObject("category-item-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Custom_Icon_Design_Pretty_Office_10_Teachers {
+            get {
+                object obj = ResourceManager.GetObject("Custom-Icon-Design-Pretty-Office-10-Teachers", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Erreur_icon {
             get {
                 object obj = ResourceManager.GetObject("Erreur-icon", resourceCulture);
@@ -313,9 +373,29 @@ namespace P1_University.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Everaldo_Crystal_Clear_Action_cancel__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Everaldo-Crystal-Clear-Action-cancel (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Everaldo_Crystal_Clear_Action_delete__1_ {
             get {
                 object obj = ResourceManager.GetObject("Everaldo-Crystal-Clear-Action-delete (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Everaldo_Crystal_Clear_Action_ok__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Everaldo-Crystal-Clear-Action-ok (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,9 +423,39 @@ namespace P1_University.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap folder_ok_icon {
+            get {
+                object obj = ResourceManager.GetObject("folder-ok-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Marcus_Roberto_Google_Play_Google_Play_Books {
+            get {
+                object obj = ResourceManager.GetObject("Marcus-Roberto-Google-Play-Google-Play-Books", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ok_icon {
             get {
                 object obj = ResourceManager.GetObject("ok-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Oxygen_Icons_org_Oxygen_Actions_contact_new {
+            get {
+                object obj = ResourceManager.GetObject("Oxygen-Icons.org-Oxygen-Actions-contact-new", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -376,6 +486,26 @@ namespace P1_University.Properties {
         internal static System.Drawing.Bitmap Sign_Close_icon1 {
             get {
                 object obj = ResourceManager.GetObject("Sign-Close-icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sign_Close_icon2 {
+            get {
+                object obj = ResourceManager.GetObject("Sign-Close-icon2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Teachers_icon {
+            get {
+                object obj = ResourceManager.GetObject("Teachers-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

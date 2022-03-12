@@ -15,3 +15,7 @@ C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های 
 C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1 University.csproj.CopyComplete
 C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1 University.exe
 C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1 University.pdb
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1_University.AddLessonForm.resources
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1_University.Migrations.InitialCreate.resources
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1_University.Migrations.Address.resources
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\P1 University\obj\Debug\P1_University.SectionControlForm.resources
