@@ -56,5 +56,11 @@ namespace P1_University
         {
             (new SectionControlForm()).ShowDialog();
         }
+
+        private void toolStripButton7_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = (new DB_C1().sections).ToList();
+
+        }
     }
 }

@@ -73,5 +73,20 @@ namespace P1_University
         {
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DB_C1 db = new DB_C1();
+            var les = from item in db.lessons where (item.title).Contains(lesNameTXT.Text) select item;
+            dataGridView2.DataSource = les.ToList();
+            var tea = from item in db.teachers where (item.name).Contains(teanameTXT.Text) select item;
+            dataGridView1.DataSource = tea.ToList();
+        }
+
+        private void toolStripButton5_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = (new DB_C1().teachers).ToList();
+            dataGridView2.DataSource = (new DB_C1().lessons).ToList();
+        }
     }
 }
