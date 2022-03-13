@@ -99,6 +99,12 @@
       <DependentUpon>SectionControlForm.cs</DependentUpon>
     </Compile>
     <Compile Include="SelectionUnit.cs" />
+    <Compile Include="SelectionUnitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectionUnitForm.Designer.cs">
+      <DependentUpon>SelectionUnitForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Student.cs" />
     <Compile Include="Teacher.cs" />
     <EmbeddedResource Include="AddLessonForm.resx">
@@ -129,8 +135,14 @@
     <EmbeddedResource Include="SectionControlForm.resx">
       <DependentUpon>SectionControlForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SelectionUnitForm.resx">
+      <DependentUpon>SelectionUnitForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Lesson.datasource" />
+    <None Include="Properties\DataSources\Section.datasource" />
+    <None Include="Properties\DataSources\SelectionUnit.datasource" />
+    <None Include="Properties\DataSources\Student.datasource" />
     <None Include="Properties\DataSources\Teacher.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

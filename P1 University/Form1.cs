@@ -34,7 +34,7 @@ namespace P1_University
 
         private void button13_Click(object sender, EventArgs e)
         {
-
+            (new SelectionUnitForm()).ShowDialog();
         }
 
         private void button14_Click(object sender, EventArgs e)
