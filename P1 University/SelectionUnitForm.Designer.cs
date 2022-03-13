@@ -33,27 +33,34 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectionUnitForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.idtxt = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
+            this.stuNmTxt = new System.Windows.Forms.TextBox();
+            this.termNumTXT = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.stuFieTxt = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.lescodeTXT = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lesFieTXT = new System.Windows.Forms.TextBox();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.label4 = new System.Windows.Forms.Label();
+            this.teaFieTXT = new System.Windows.Forms.TextBox();
             this.teaCodeTxt = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.lescodeTXT = new System.Windows.Forms.TextBox();
+            this.teaNameTXT = new System.Windows.Forms.TextBox();
+            this.lesNameTXT = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.idtxt = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
@@ -64,9 +71,16 @@
             this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.familyDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fieldDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.studentCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.selectionUnitBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.idDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sectionIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.studentIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.termNumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.numberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.selectionUnitBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lessonIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.teacherIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -74,81 +88,106 @@
             this.lessonHRDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.classNumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sectionBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.teacherBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.familyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fieldDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.selectionUnitBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.studentBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.family = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.field = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.studentId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.termNum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sectionId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.number = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridView5 = new System.Windows.Forms.DataGridView();
             this.lessonBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.unitNumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.teacherBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label11 = new System.Windows.Forms.Label();
+            this.unitCode = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.selectionUnitBindingSource)).BeginInit();
+            this.toolStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.selectionUnitBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sectionBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selectionUnitBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.dataGridView2);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.lescodeTXT);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.groupBox5);
-            this.groupBox1.Controls.Add(this.teaCodeTxt);
-            this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.unitCode);
+            this.groupBox1.Controls.Add(this.button7);
+            this.groupBox1.Controls.Add(this.button8);
+            this.groupBox1.Controls.Add(this.button5);
+            this.groupBox1.Controls.Add(this.button6);
+            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.idtxt);
+            this.groupBox1.Controls.Add(this.lesFieTXT);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.teaFieTXT);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.stuNmTxt);
+            this.groupBox1.Controls.Add(this.termNumTXT);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.stuFieTxt);
+            this.groupBox1.Controls.Add(this.groupBox5);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.groupBox2);
+            this.groupBox1.Controls.Add(this.teaCodeTxt);
+            this.groupBox1.Controls.Add(this.lescodeTXT);
+            this.groupBox1.Controls.Add(this.teaNameTXT);
+            this.groupBox1.Controls.Add(this.lesNameTXT);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Location = new System.Drawing.Point(12, 28);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox1.Size = new System.Drawing.Size(1020, 452);
+            this.groupBox1.Size = new System.Drawing.Size(800, 452);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "انتخاب واحد";
             // 
+            // idtxt
+            // 
+            this.idtxt.BackColor = System.Drawing.Color.SandyBrown;
+            this.idtxt.Location = new System.Drawing.Point(692, 46);
+            this.idtxt.Name = "idtxt";
+            this.idtxt.Size = new System.Drawing.Size(63, 20);
+            this.idtxt.TabIndex = 16;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(629, 22);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(63, 13);
+            this.label8.TabIndex = 32;
+            this.label8.Text = "نام دانشجو :";
+            // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(87, 48);
+            this.button3.Location = new System.Drawing.Point(16, 153);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 34);
             this.button3.TabIndex = 25;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(761, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(27, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "ترم :";
+            // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(87, 13);
+            this.button4.Location = new System.Drawing.Point(16, 113);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 34);
             this.button4.TabIndex = 24;
@@ -156,174 +195,26 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // dataGridView2
+            // label2
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.dataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView2.AutoGenerateColumns = false;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.studentCode,
-            this.nameDataGridViewTextBoxColumn,
-            this.familyDataGridViewTextBoxColumn,
-            this.fieldDataGridViewTextBoxColumn});
-            this.dataGridView2.DataSource = this.studentBindingSource;
-            this.dataGridView2.Location = new System.Drawing.Point(171, 22);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersVisible = false;
-            this.dataGridView2.Size = new System.Drawing.Size(453, 45);
-            this.dataGridView2.TabIndex = 0;
-            this.dataGridView2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(761, 49);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(25, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "کد :";
             // 
-            // button2
+            // stuNmTxt
             // 
-            this.button2.Location = new System.Drawing.Point(6, 48);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 34);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.stuNmTxt.Location = new System.Drawing.Point(471, 19);
+            this.stuNmTxt.Name = "stuNmTxt";
+            this.stuNmTxt.Size = new System.Drawing.Size(156, 20);
+            this.stuNmTxt.TabIndex = 31;
             // 
-            // button1
+            // termNumTXT
             // 
-            this.button1.Location = new System.Drawing.Point(6, 13);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 34);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.dataGridView1);
-            this.groupBox5.Location = new System.Drawing.Point(6, 81);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(416, 365);
-            this.groupBox5.TabIndex = 2;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "نمایش درس ارایه شده";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.studentId,
-            this.termNum,
-            this.sectionId,
-            this.number});
-            this.dataGridView1.DataSource = this.selectionUnitBindingSource;
-            this.dataGridView1.EnableHeadersVisualStyles = false;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 15);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(404, 344);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.dataGridView5);
-            this.groupBox2.Controls.Add(this.dataGridView4);
-            this.groupBox2.Controls.Add(this.dataGridView3);
-            this.groupBox2.Location = new System.Drawing.Point(428, 81);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(586, 365);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "نمایش اطلاعات";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(698, 51);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(52, 13);
-            this.label9.TabIndex = 26;
-            this.label9.Text = "کد مدرس :";
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.AutoGenerateColumns = false;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.id,
-            this.name,
-            this.family,
-            this.field});
-            this.dataGridView3.DataSource = this.teacherBindingSource;
-            this.dataGridView3.Location = new System.Drawing.Point(173, 67);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowHeadersVisible = false;
-            this.dataGridView3.Size = new System.Drawing.Size(403, 46);
-            this.dataGridView3.TabIndex = 1;
-            // 
-            // lescodeTXT
-            // 
-            this.lescodeTXT.Location = new System.Drawing.Point(629, 22);
-            this.lescodeTXT.Name = "lescodeTXT";
-            this.lescodeTXT.Size = new System.Drawing.Size(63, 20);
-            this.lescodeTXT.TabIndex = 10;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(857, 51);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 13);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "نام مدرس :";
-            // 
-            // teaCodeTxt
-            // 
-            this.teaCodeTxt.Location = new System.Drawing.Point(629, 48);
-            this.teaCodeTxt.Name = "teaCodeTxt";
-            this.teaCodeTxt.Size = new System.Drawing.Size(63, 20);
-            this.teaCodeTxt.TabIndex = 21;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(751, 48);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 12;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(698, 25);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 13);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "کد درس‌ :";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(751, 22);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 8;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(857, 25);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(48, 13);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "نام درس :";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.termNumTXT.FormattingEnabled = true;
+            this.termNumTXT.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
@@ -332,35 +223,219 @@
             "6",
             "7",
             "8"});
-            this.comboBox1.Location = new System.Drawing.Point(913, 21);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(63, 21);
-            this.comboBox1.TabIndex = 0;
+            this.termNumTXT.Location = new System.Drawing.Point(692, 19);
+            this.termNumTXT.Name = "termNumTXT";
+            this.termNumTXT.Size = new System.Drawing.Size(63, 21);
+            this.termNumTXT.TabIndex = 0;
             // 
-            // label2
+            // button2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(982, 51);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(25, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "کد :";
+            this.button2.Location = new System.Drawing.Point(16, 193);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 34);
+            this.button2.TabIndex = 23;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // label10
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(982, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(27, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "ترم :";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(629, 48);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(36, 13);
+            this.label10.TabIndex = 34;
+            this.label10.Text = "رشته :";
             // 
-            // idtxt
+            // button1
             // 
-            this.idtxt.Location = new System.Drawing.Point(913, 48);
-            this.idtxt.Name = "idtxt";
-            this.idtxt.Size = new System.Drawing.Size(63, 20);
-            this.idtxt.TabIndex = 16;
+            this.button1.Location = new System.Drawing.Point(16, 233);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 34);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "ثبت نام";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // stuFieTxt
+            // 
+            this.stuFieTxt.Location = new System.Drawing.Point(471, 45);
+            this.stuFieTxt.Name = "stuFieTxt";
+            this.stuFieTxt.Size = new System.Drawing.Size(156, 20);
+            this.stuFieTxt.TabIndex = 33;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.dataGridView1);
+            this.groupBox5.Location = new System.Drawing.Point(523, 78);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(266, 365);
+            this.groupBox5.TabIndex = 2;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "نمایش درس ارایه شده";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn1,
+            this.sectionIdDataGridViewTextBoxColumn,
+            this.studentIdDataGridViewTextBoxColumn,
+            this.termNumDataGridViewTextBoxColumn,
+            this.numberDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.selectionUnitBindingSource1;
+            this.dataGridView1.EnableHeadersVisualStyles = false;
+            this.dataGridView1.Location = new System.Drawing.Point(6, 15);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersVisible = false;
+            this.dataGridView1.Size = new System.Drawing.Size(253, 344);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(260, 48);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(52, 13);
+            this.label9.TabIndex = 26;
+            this.label9.Text = "کد مدرس :";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.dataGridView4);
+            this.groupBox2.Location = new System.Drawing.Point(252, 79);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(265, 365);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "نمایش اطلاعات";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(130, 48);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.TabIndex = 30;
+            this.label3.Text = "رشته مدرس :";
+            // 
+            // lesFieTXT
+            // 
+            this.lesFieTXT.Location = new System.Drawing.Point(6, 19);
+            this.lesFieTXT.Name = "lesFieTXT";
+            this.lesFieTXT.Size = new System.Drawing.Size(122, 20);
+            this.lesFieTXT.TabIndex = 27;
+            // 
+            // dataGridView4
+            // 
+            this.dataGridView4.AutoGenerateColumns = false;
+            this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn,
+            this.lessonIdDataGridViewTextBoxColumn,
+            this.teacherIdDataGridViewTextBoxColumn,
+            this.dayDataGridViewTextBoxColumn,
+            this.lessonHRDataGridViewTextBoxColumn,
+            this.classNumDataGridViewTextBoxColumn});
+            this.dataGridView4.DataSource = this.sectionBindingSource;
+            this.dataGridView4.EnableHeadersVisualStyles = false;
+            this.dataGridView4.Location = new System.Drawing.Point(6, 15);
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.RowHeadersVisible = false;
+            this.dataGridView4.Size = new System.Drawing.Size(254, 344);
+            this.dataGridView4.TabIndex = 2;
+            this.dataGridView4.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellClick);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(130, 21);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(58, 13);
+            this.label4.TabIndex = 28;
+            this.label4.Text = "رشته درس‌ :";
+            // 
+            // teaFieTXT
+            // 
+            this.teaFieTXT.Location = new System.Drawing.Point(6, 45);
+            this.teaFieTXT.Name = "teaFieTXT";
+            this.teaFieTXT.Size = new System.Drawing.Size(122, 20);
+            this.teaFieTXT.TabIndex = 29;
+            // 
+            // teaCodeTxt
+            // 
+            this.teaCodeTxt.Location = new System.Drawing.Point(195, 45);
+            this.teaCodeTxt.Name = "teaCodeTxt";
+            this.teaCodeTxt.Size = new System.Drawing.Size(63, 20);
+            this.teaCodeTxt.TabIndex = 21;
+            // 
+            // lescodeTXT
+            // 
+            this.lescodeTXT.Location = new System.Drawing.Point(195, 19);
+            this.lescodeTXT.Name = "lescodeTXT";
+            this.lescodeTXT.Size = new System.Drawing.Size(63, 20);
+            this.lescodeTXT.TabIndex = 10;
+            // 
+            // teaNameTXT
+            // 
+            this.teaNameTXT.BackColor = System.Drawing.Color.Khaki;
+            this.teaNameTXT.Location = new System.Drawing.Point(317, 45);
+            this.teaNameTXT.Name = "teaNameTXT";
+            this.teaNameTXT.Size = new System.Drawing.Size(100, 20);
+            this.teaNameTXT.TabIndex = 12;
+            // 
+            // lesNameTXT
+            // 
+            this.lesNameTXT.BackColor = System.Drawing.Color.Khaki;
+            this.lesNameTXT.Location = new System.Drawing.Point(317, 19);
+            this.lesNameTXT.Name = "lesNameTXT";
+            this.lesNameTXT.Size = new System.Drawing.Size(100, 20);
+            this.lesNameTXT.TabIndex = 8;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(419, 48);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 13);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "نام مدرس :";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(419, 22);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(48, 13);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "نام درس :";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(260, 21);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(47, 13);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "کد درس‌ :";
             // 
             // toolStrip1
             // 
@@ -374,7 +449,7 @@
             this.toolStripButton6});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1044, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(820, 25);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
@@ -453,40 +528,85 @@
             this.fieldDataGridViewTextBoxColumn1.HeaderText = "رشته";
             this.fieldDataGridViewTextBoxColumn1.Name = "fieldDataGridViewTextBoxColumn1";
             // 
-            // studentCode
+            // button5
             // 
-            this.studentCode.DataPropertyName = "studentCode";
-            this.studentCode.HeaderText = "شماره دانشجویی";
-            this.studentCode.Name = "studentCode";
-            this.studentCode.Width = 150;
+            this.button5.Location = new System.Drawing.Point(16, 273);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 34);
+            this.button5.TabIndex = 36;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
             // 
-            // dataGridView4
+            // button6
             // 
-            this.dataGridView4.AutoGenerateColumns = false;
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.lessonIdDataGridViewTextBoxColumn,
-            this.teacherIdDataGridViewTextBoxColumn,
-            this.dayDataGridViewTextBoxColumn,
-            this.lessonHRDataGridViewTextBoxColumn,
-            this.classNumDataGridViewTextBoxColumn});
-            this.dataGridView4.DataSource = this.sectionBindingSource;
-            this.dataGridView4.Location = new System.Drawing.Point(324, 124);
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.RowHeadersVisible = false;
-            this.dataGridView4.Size = new System.Drawing.Size(254, 235);
-            this.dataGridView4.TabIndex = 2;
-            this.dataGridView4.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellClick);
+            this.button6.Location = new System.Drawing.Point(16, 313);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 34);
+            this.button6.TabIndex = 35;
+            this.button6.Text = "button6";
+            this.button6.UseVisualStyleBackColor = true;
             // 
-            // selectionUnitBindingSource
+            // button7
             // 
-            this.selectionUnitBindingSource.DataSource = typeof(P1_University.SelectionUnit);
+            this.button7.Location = new System.Drawing.Point(16, 353);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 34);
+            this.button7.TabIndex = 38;
+            this.button7.Text = "button7";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(16, 393);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 34);
+            this.button8.TabIndex = 37;
+            this.button8.Text = "button8";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // idDataGridViewTextBoxColumn1
+            // 
+            this.idDataGridViewTextBoxColumn1.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn1.HeaderText = "کد";
+            this.idDataGridViewTextBoxColumn1.Name = "idDataGridViewTextBoxColumn1";
+            this.idDataGridViewTextBoxColumn1.Width = 50;
+            // 
+            // sectionIdDataGridViewTextBoxColumn
+            // 
+            this.sectionIdDataGridViewTextBoxColumn.DataPropertyName = "sectionId";
+            this.sectionIdDataGridViewTextBoxColumn.HeaderText = "درس";
+            this.sectionIdDataGridViewTextBoxColumn.Name = "sectionIdDataGridViewTextBoxColumn";
+            this.sectionIdDataGridViewTextBoxColumn.Width = 50;
+            // 
+            // studentIdDataGridViewTextBoxColumn
+            // 
+            this.studentIdDataGridViewTextBoxColumn.DataPropertyName = "studentId";
+            this.studentIdDataGridViewTextBoxColumn.HeaderText = "دانشجو";
+            this.studentIdDataGridViewTextBoxColumn.Name = "studentIdDataGridViewTextBoxColumn";
+            this.studentIdDataGridViewTextBoxColumn.Width = 50;
+            // 
+            // termNumDataGridViewTextBoxColumn
+            // 
+            this.termNumDataGridViewTextBoxColumn.DataPropertyName = "termNum";
+            this.termNumDataGridViewTextBoxColumn.HeaderText = "ترم";
+            this.termNumDataGridViewTextBoxColumn.Name = "termNumDataGridViewTextBoxColumn";
+            this.termNumDataGridViewTextBoxColumn.Width = 50;
+            // 
+            // numberDataGridViewTextBoxColumn
+            // 
+            this.numberDataGridViewTextBoxColumn.DataPropertyName = "number";
+            this.numberDataGridViewTextBoxColumn.HeaderText = "نمره";
+            this.numberDataGridViewTextBoxColumn.Name = "numberDataGridViewTextBoxColumn";
+            this.numberDataGridViewTextBoxColumn.Width = 50;
+            // 
+            // selectionUnitBindingSource1
+            // 
+            this.selectionUnitBindingSource1.DataSource = typeof(P1_University.SelectionUnit);
             // 
             // idDataGridViewTextBoxColumn
             // 
             this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "واحد";
+            this.idDataGridViewTextBoxColumn.HeaderText = "کد";
             this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
             this.idDataGridViewTextBoxColumn.Width = 40;
             // 
@@ -529,123 +649,44 @@
             // 
             this.sectionBindingSource.DataSource = typeof(P1_University.Section);
             // 
-            // teacherBindingSource
+            // selectionUnitBindingSource
             // 
-            this.teacherBindingSource.DataSource = typeof(P1_University.Teacher);
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "نام";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            // 
-            // familyDataGridViewTextBoxColumn
-            // 
-            this.familyDataGridViewTextBoxColumn.DataPropertyName = "family";
-            this.familyDataGridViewTextBoxColumn.HeaderText = "فامیل";
-            this.familyDataGridViewTextBoxColumn.Name = "familyDataGridViewTextBoxColumn";
-            // 
-            // fieldDataGridViewTextBoxColumn
-            // 
-            this.fieldDataGridViewTextBoxColumn.DataPropertyName = "field";
-            this.fieldDataGridViewTextBoxColumn.HeaderText = "رشته";
-            this.fieldDataGridViewTextBoxColumn.Name = "fieldDataGridViewTextBoxColumn";
+            this.selectionUnitBindingSource.DataSource = typeof(P1_University.SelectionUnit);
             // 
             // studentBindingSource
             // 
             this.studentBindingSource.DataSource = typeof(P1_University.Student);
             // 
-            // id
-            // 
-            this.id.DataPropertyName = "id";
-            this.id.HeaderText = "کد";
-            this.id.Name = "id";
-            // 
-            // name
-            // 
-            this.name.DataPropertyName = "name";
-            this.name.HeaderText = "نام";
-            this.name.Name = "name";
-            // 
-            // family
-            // 
-            this.family.DataPropertyName = "family";
-            this.family.HeaderText = "فامیل";
-            this.family.Name = "family";
-            // 
-            // field
-            // 
-            this.field.DataPropertyName = "field";
-            this.field.HeaderText = "رشته";
-            this.field.Name = "field";
-            // 
-            // studentId
-            // 
-            this.studentId.DataPropertyName = "studentId";
-            this.studentId.HeaderText = "کد دانشجو";
-            this.studentId.Name = "studentId";
-            // 
-            // termNum
-            // 
-            this.termNum.DataPropertyName = "termNum";
-            this.termNum.HeaderText = "شماره ترم";
-            this.termNum.Name = "termNum";
-            // 
-            // sectionId
-            // 
-            this.sectionId.DataPropertyName = "sectionId";
-            this.sectionId.HeaderText = "کد واحد درسی";
-            this.sectionId.Name = "sectionId";
-            // 
-            // number
-            // 
-            this.number.DataPropertyName = "number";
-            this.number.HeaderText = "نمره درس";
-            this.number.Name = "number";
-            // 
-            // dataGridView5
-            // 
-            this.dataGridView5.AutoGenerateColumns = false;
-            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.titleDataGridViewTextBoxColumn,
-            this.unitNumDataGridViewTextBoxColumn});
-            this.dataGridView5.DataSource = this.lessonBindingSource;
-            this.dataGridView5.Location = new System.Drawing.Point(273, 15);
-            this.dataGridView5.Name = "dataGridView5";
-            this.dataGridView5.RowHeadersVisible = false;
-            this.dataGridView5.Size = new System.Drawing.Size(303, 46);
-            this.dataGridView5.TabIndex = 3;
-            // 
             // lessonBindingSource
             // 
             this.lessonBindingSource.DataSource = typeof(P1_University.Lesson);
             // 
-            // dataGridViewTextBoxColumn1
+            // teacherBindingSource
             // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "id";
-            this.dataGridViewTextBoxColumn1.HeaderText = "کد";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.teacherBindingSource.DataSource = typeof(P1_University.Teacher);
             // 
-            // titleDataGridViewTextBoxColumn
+            // label11
             // 
-            this.titleDataGridViewTextBoxColumn.DataPropertyName = "title";
-            this.titleDataGridViewTextBoxColumn.HeaderText = "نام درس";
-            this.titleDataGridViewTextBoxColumn.Name = "titleDataGridViewTextBoxColumn";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(130, 74);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(49, 13);
+            this.label11.TabIndex = 40;
+            this.label11.Text = "کد واحد :";
             // 
-            // unitNumDataGridViewTextBoxColumn
+            // unitCode
             // 
-            this.unitNumDataGridViewTextBoxColumn.DataPropertyName = "unitNum";
-            this.unitNumDataGridViewTextBoxColumn.HeaderText = "واحد";
-            this.unitNumDataGridViewTextBoxColumn.Name = "unitNumDataGridViewTextBoxColumn";
+            this.unitCode.Location = new System.Drawing.Point(65, 71);
+            this.unitCode.Name = "unitCode";
+            this.unitCode.Size = new System.Drawing.Size(63, 20);
+            this.unitCode.TabIndex = 39;
             // 
             // SelectionUnitForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ClientSize = new System.Drawing.Size(1044, 492);
+            this.ClientSize = new System.Drawing.Size(820, 492);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -654,20 +695,18 @@
             this.Load += new System.EventHandler(this.SelectionUnitForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.selectionUnitBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selectionUnitBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sectionBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.selectionUnitBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lessonBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -688,52 +727,54 @@
         private System.Windows.Forms.ToolStripButton toolStripButton6;
         private System.Windows.Forms.BindingSource sectionBindingSource;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox termNumTXT;
         private System.Windows.Forms.BindingSource selectionUnitBindingSource;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox teaCodeTxt;
         private System.Windows.Forms.TextBox idtxt;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox teaNameTXT;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox lescodeTXT;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox lesNameTXT;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.BindingSource studentBindingSource;
         private System.Windows.Forms.BindingSource teacherBindingSource;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn familyDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn fieldDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridView dataGridView4;
+        private System.Windows.Forms.BindingSource lessonBindingSource;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox lesFieTXT;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox teaFieTXT;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox stuNmTxt;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox stuFieTxt;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn lessonIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn teacherIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dayDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn lessonHRDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn classNumDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn studentCode;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn familyDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fieldDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn studentId;
-        private System.Windows.Forms.DataGridViewTextBoxColumn termNum;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sectionId;
-        private System.Windows.Forms.DataGridViewTextBoxColumn number;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn family;
-        private System.Windows.Forms.DataGridViewTextBoxColumn field;
-        private System.Windows.Forms.DataGridView dataGridView5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn titleDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn unitNumDataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource lessonBindingSource;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sectionIdDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn studentIdDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn termNumDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn numberDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource selectionUnitBindingSource1;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox unitCode;
     }
 }
