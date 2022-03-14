@@ -56,9 +56,9 @@ namespace P1_University
             {
                 LessonId = Convert.ToInt32(lesCodeTXT.Text),
                 teacherId = Convert.ToInt32(teacodTXT.Text),
-                day = Convert.ToInt32(dayTXT.Text),
+                day = Convert.ToInt16(dayTXT.Text),
                 lessonHR = Convert.ToDateTime(hourTXT.Text),
-                classNum = Convert.ToInt32(ClassNumTXT.Text)
+                classNum = Convert.ToInt16(ClassNumTXT.Text)
             }, lesFieldTXT.Text, teaFieTXT.Text))
             {
                 this.Text = "عملیات با موفق ثبت شد";

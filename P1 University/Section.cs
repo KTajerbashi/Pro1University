@@ -11,9 +11,9 @@ namespace P1_University
         public int id { get; set; }
         public int LessonId { get; set; }
         public int teacherId { get; set; }
-        public int day { get; set; }
+        public Int16 day { get; set; }
         public DateTimeOffset lessonHR { get; set; }
-        public int classNum { get; set; }
+        public Int16 classNum { get; set; }
 
         public bool mergeLesTea(Section section, String lesson,String teacher)
         {

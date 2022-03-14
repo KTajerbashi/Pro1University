@@ -17,45 +17,46 @@ namespace P1_University
             InitializeComponent();
         }
 
-        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
         private void SelectionUnitForm_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = (new DB_C1()).selectionUnits.ToList();
             dataGridView4.DataSource = (new DB_C1()).sections.ToList();
         }
 
         private void toolStripButton6_Click(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = (new DB_C1()).selectionUnits.ToList();
             dataGridView4.DataSource = (new DB_C1()).sections.ToList();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             DB_C1 db = new DB_C1();
-            int id = Convert.ToInt32( idtxt.Text);
-            foreach (var i in db.students)
+            if (idtxt.Text.Length == 0 && lescodeTXT.Text.Length == 0 && teaCodeTxt.Text.Length == 0)
             {
-                if (i.id == id)
-                {
-                    stuNmTxt.Text = i.name + " " + i.family;
-                    stuFieTxt.Text = i.field;
-                }
+                this.Text = "فیلد خالی است";
             }
+            else
+            {
+                int Sid = Convert.ToInt32(idtxt.Text);
+                
+                foreach (var i in db.students)
+                {
+                    if (i.id == Sid)
+                    {
+                        stuNmTxt.Text = i.name + " " + i.family;
+                        stuFieTxt.Text = i.field;
+                        break;
+                    }
+                }
+                
+            }
+
+            
+
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
 
         private void dataGridView4_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -69,8 +70,8 @@ namespace P1_University
             {
                 if(item.id == idtea)
                 {
-                    teaNameTXT.Text = item.name.ToString();
-                    teaFieTXT.Text = item.field.ToString();
+                    teaNameTXT.Text = item.name.ToString() + " " + item.family.ToString();
+                //    teaFieTXT.Text = item.field.ToString();
                 }
             }
             int idLes = Convert.ToInt16(lescodeTXT.Text);
@@ -78,7 +79,7 @@ namespace P1_University
             {
                 if(item.id == idLes)
                 {
-                    lesFieTXT.Text = item.field.ToString();
+                 //   lesFieTXT.Text = item.field.ToString();
                     lesNameTXT.Text = item.title.ToString();
                 }
             }
@@ -90,6 +91,7 @@ namespace P1_University
         private void button1_Click(object sender, EventArgs e)
         {
             SelectionUnit selection1 = new SelectionUnit();
+
             if(selection1.selectionRegister(new SelectionUnit
             {
                 studentId=Convert.ToInt32(idtxt.Text),
@@ -99,13 +101,80 @@ namespace P1_University
             }))
             {
                 this.Text = "واحد انتخاب شد";
-                dataGridView1.DataSource = (new DB_C1()).selectionUnits.ToList();
-
             }
             else
             {
                 MessageBox.Show("واحد انتخاب نشد");
             }
+            
         }
+
+        private void toolStripButton7_Click(object sender, EventArgs e)
+        {
+            DB_C1 db = new DB_C1();
+
+            if (lescodeTXT.Text.Length == 0 && teaCodeTxt.Text.Length == 0)
+            {
+                this.Text = "فید خالی است";
+            }
+            else
+            {
+                
+                if(lescodeTXT.Text.Length == 0)
+                {//لیست دروس ارایه شده توسط استاد
+                    List<Int32> list = new List<Int32>();
+                    List<Lesson> lesson = new List<Lesson>();
+                    foreach (var item in db.sections)
+                    {
+                        if(item.teacherId == Convert.ToInt16(teaCodeTxt.Text))
+                        {
+                            list.Add(item.LessonId);
+                        }
+                        
+                    }
+                    foreach(var item in db.lessons)
+                    {
+                        foreach(var i in list)
+                        {
+                            if (item.id == i)
+                            {
+                                lesson.Add(item);
+                            }
+                        }
+                    }
+                    dataGridView1.DataSource = lesson.ToList();
+                }
+                else
+                {
+                    List<Int32> list = new List<Int32>();
+                    List<Teacher> teacher = new List<Teacher>();
+                    foreach (var item in db.sections)
+                    {
+                        if (item.LessonId == Convert.ToInt16(lescodeTXT.Text))
+                        {
+                            list.Add(item.teacherId);
+                        }
+
+                    }
+                    foreach (var item in db.teachers)
+                    {
+                        foreach (var i in list)
+                        {
+                            if (item.id == i)
+                            {
+                                teacher.Add(item);
+                            }
+                        }
+                    }
+                    dataGridView1.DataSource = teacher.ToList();
+                }
+            }
+
+            
+        }
+
+        
+
+       
     }
 }

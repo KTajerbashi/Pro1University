@@ -81,6 +81,14 @@
     <Compile Include="Migrations\202203120208204_Address.designer.cs">
       <DependentUpon>202203120208204_Address.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202203140247067_CodeA.cs" />
+    <Compile Include="Migrations\202203140247067_CodeA.designer.cs">
+      <DependentUpon>202203140247067_CodeA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203140302587_CodeA1.cs" />
+    <Compile Include="Migrations\202203140302587_CodeA1.designer.cs">
+      <DependentUpon>202203140302587_CodeA1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
@@ -105,6 +113,12 @@
     <Compile Include="SelectionUnitForm.Designer.cs">
       <DependentUpon>SelectionUnitForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowForm.Designer.cs">
+      <DependentUpon>ShowForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Student.cs" />
     <Compile Include="Teacher.cs" />
     <EmbeddedResource Include="AddLessonForm.resx">
@@ -118,6 +132,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202203120208204_Address.resx">
       <DependentUpon>202203120208204_Address.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203140247067_CodeA.resx">
+      <DependentUpon>202203140247067_CodeA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203140302587_CodeA1.resx">
+      <DependentUpon>202203140302587_CodeA1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -137,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SelectionUnitForm.resx">
       <DependentUpon>SelectionUnitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowForm.resx">
+      <DependentUpon>ShowForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Lesson.datasource" />

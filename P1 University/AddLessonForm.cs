@@ -85,5 +85,11 @@ namespace P1_University
             dataGridView1.DataSource = (new DB_C1().lessons).ToList();
 
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = (new DB_C1().lessons).ToList();
+
+        }
     }
 }

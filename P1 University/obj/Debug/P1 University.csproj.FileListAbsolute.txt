@@ -41,3 +41,6 @@ C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های 
 C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\Pro1University\P1 University\obj\Debug\P1 University.exe
 C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\Pro1University\P1 University\obj\Debug\P1 University.pdb
 C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\Pro1University\P1 University\obj\Debug\P1_University.SelectionUnitForm.resources
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\Pro1University\P1 University\obj\Debug\P1_University.ShowForm.resources
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\Pro1University\P1 University\obj\Debug\P1_University.Migrations.CodeA.resources
+C:\Users\Tajerbashi\Desktop\Class\C#\دوره توسعه گر\پروژه های تکمیلی\University\P1 University\Pro1University\P1 University\obj\Debug\P1_University.Migrations.CodeA1.resources
